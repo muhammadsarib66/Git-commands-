@@ -1,0 +1,42 @@
+git config --global user.name "sarib"
+git config --global user.email"sarib@bitspro.com "
+git --global --edit -> for edit name and when exit press exc wq:
+mkdir MynewFolder -> new folder will create 
+git init -> empty repo
+ ls -a =>show hiden git file
+git add =>for specific file this will start staging means which file u wnted to commit
+git add . will add every file 
+git commit -m  "commited"
+git log -> kis kis ne comited krdiya abh tk 
+git checkout comit address -> like d2cdsfds421 ->this will show previous comit that u uploaded
+git branch -> this will show u branches . and u can move from one place to another checout adresses where coomited happened
+now type git checkout master .-> u will redirect in master branch where all code u upload and comit diferent time 
+git branch dev1 -> this will create 1 root from master like this 
+git checkout dev1 -> u will inter in dev1 branch
+git checkout -b sarib/FlexCm -> -b will create breanch and checout also
+git checkout dev1 -> now i am dev1 branch 
+git merge sarib/FlexCm -> now i merge my  sarib/flexCm wali file in dev1 branch mai 
+ touch .gitignore 
+
+now its time to fly in github 
+after commiting all files
+git remote add origin  <create repo wala link yaha dena>
+git branch -M master  this will  ready to add item in orign master file 
+git push -u origin master -> ye finally upload krdega cde 
+
+after edit 1 line code again push in repo only tpe 
+
+git add . 
+git commit -m "added change"
+git push=> this will push no any command required
+
+now push branches jo bnai thi locally 
+git checout dev1 => branch mai gaye hum 
+git push -u origin dev1 => ye push hogai repo mai 
+
+git clone <repo ka name http kr k hoga > => this will clone other person repo
+
+
+vim readmd -> ye kr k i press krna insert mode k liye 
+cat read.md -> check krne k liye kia edit hui 
+
